@@ -1,0 +1,12 @@
+<h2>Top Heroes</h2>
+<br>
+<div class="col-md-3 col-sm-6" *ngFor="let hero of heroes">
+    <div class="card card-inverse card-primary text-xs-center"
+         (click)="gotoDetail(hero)"
+    style="padding-top:30px; padding-bottom:20px">
+        <div class="card-title">
+            <h3>{{hero.name}}</h3>
+        </div>
+    </div>
+</div>
+<hero-search></hero-search>

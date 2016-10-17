@@ -1,0 +1,29 @@
+<div *ngIf="hero">
+    <div class="card">
+        <div class="card-header card-primary text-xs-center">
+            <h2>{{hero.name}} details!</h2>
+        </div>
+        <div class="card-body">
+            <br>
+            <div class="form-group row">
+                <label class="col-xs-2 col-xs-offset-1 col-form-label" for="id">Id</label>
+                <div class="col-xs-8" id="id">
+                    {{hero.id}}
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-xs-2 col-xs-offset-1 col-form-label" for="name">Name</label>
+                <div class="col-xs-8">
+                    <input class="form-control"
+                           type="text"
+                           id="name"
+                           [(ngModel)]="hero.name"
+                           placeholder="name">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <button (click)="goBack()" type="button" class="btn btn-primary">Back</button>
+    <button (click)="save()" type="button" class="btn btn-primary">Save</button>
+</div>
