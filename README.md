@@ -26,6 +26,7 @@ To build this project, download it from github:
     
 File/Component/Service Descriptions
 ===================================
+```
 index.html - the starting point for the project (includes <app></app>
     tag for the application
 
@@ -34,9 +35,11 @@ app/app.component.ts - top level component for the project
 app/app.component.html - top level application html, refers to
     app_navbar, app_header, router_outlet, and app_footer components
 app/app-routing.ts - application routes
+```
 
 Components
 ==========
+```
     app/common/app_navbar - navbar for the app
     app/common/app_header - header for the app
     app/common/app_footer - footer for the app
@@ -52,15 +55,19 @@ Components
         in the dashboard
     app/mock-heroes - an local data structure containing a list of
         heroes, used by th hero-service to initialize the heroes list
+```
 
 Services
 ========
+```
     app/hero-service - provides a CRUD interface to heroes data.
     app/in-memory-service - provides a mock in-memory api for
         the heroes data.
+```
 
-The code tree for this project is:
-
+Code Tree
+=========
+```
 ├── app
 │   ├── app-routing.module.ts
 │   ├── app.component.css
@@ -130,3 +137,4 @@ The code tree for this project is:
 ├── main.browser.ts
 ├── polyfills.browser.ts
 └── vendor.browser.ts
+```
