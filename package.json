@@ -1,5 +1,5 @@
 {
-    "name": "tour-of-heroes",
+    "name": "angular2-docker-bootstrap4-webpack-tour-of-heroes",
     "version": "1.0.0",
     "description": "Angular 2, Bootstrap 4, Webpack - Tour of Heroes demo",
     "author": "Scott M. Nakada<scottnakada@gmail.com",
@@ -48,11 +48,6 @@
         "leaflet": "^0.7.7",
         "leaflet-map": "^0.2.1",
         "lodash": "^4.12.0",
-        "ng2-bootstrap": "1.1.5",
-        "ng2-tree": "^0.0.2-7",
-        "ng2-ckeditor": "1.0.7",
-        "ng2-smart-table": "^0.3.1",
-        "ng2-uploader": "1.1.0",
         "normalize.css": "^4.1.1",
         "rxjs": "5.0.0-beta.12",
         "tether": "^1.2.4",
@@ -148,10 +143,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/scottnakada/tour_of_heroes.git"
+        "url": "https://github.com/scottnakada/angular2-docker-bootstrap4-webpack-tour-of-heroes.git"
     },
     "bugs": {
-        "url": "https://github.com/scottnakada/tour_of_heroes/issues"
+        "url": "https://github.com/scottnakada/angular2-docker-bootstrap4-webpack-tour-of-heroes/issues"
     },
     "engines": {
         "node": ">= 4.2.1",
