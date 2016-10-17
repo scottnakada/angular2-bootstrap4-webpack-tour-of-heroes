@@ -21,7 +21,7 @@ The original tutorial is located here:
 
 To build this project, download it from github:
 ```
-    git clone https://github.com/scottnakada/angular2-bootstrap4-webpack-tour-of-heroes.git
+    git clone https://github.com/scottnakada/angular2-bootstrap4-webpack-tour-of-heroes.git tour_of_heroes
     cd tour_of_heroes
     npm install
     npm start
