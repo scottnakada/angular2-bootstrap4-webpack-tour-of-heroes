@@ -3,7 +3,7 @@
 #    docker build -t angular2-tour .
 #
 # To start the docker container:
-#    docker run -d --rm -p 3000:3000 -p 3001:3001 --name angular2-tour angular2-tour
+#    docker run -it --rm -p 3000:3000 -p 3001:3001 --name angular2-tour angular2-tour
 #
 # To view the app, Open a browser at localhost:3000
 #
@@ -31,7 +31,7 @@ RUN mkdir -p /home/nodejs && \
 WORKDIR /home/nodejs
 
 # Add build files to /home/nodejs
-RUN git clone https://github.com/scottnakada/angular2-docker-bootstrap4-webpack-tour-of-heroes.git \
+RUN git clone https://github.com/scottnakada/angular2-bootstrap4-webpack-tour-of-heroes.git \
 	 tour-of-heroes
 
 # Change to the hour of heroes directory
@@ -43,7 +43,7 @@ RUN npm install && \
     chmod -R 775 /home/nodejs
 
 # Startup as user nodejs
-USER nodejs
+#USER nodejs
 
 EXPOSE 3000 3001
 
