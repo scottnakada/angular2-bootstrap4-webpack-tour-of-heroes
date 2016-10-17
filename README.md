@@ -8,21 +8,25 @@ Please use node 6.0.0 and npm 3.10.8 or later to install
 the dependencies
 
 This version is based on:
-
+```
 angular: 2.1.0
 bootstrap: 4.0.0-alpha.2
 jquery: 2.2.3
+```
 
 The original tutorial is located here:
+```
     https://angular.io/docs/ts/latest/tutorial/
-    
+```    
+
 To build this project, download it from github:
-    git clone https://github.com/scottnakada/tour_of_heroes.git
+```
+    git clone https://github.com/scottnakada/angular2-bootstrap4-webpack-tour-of-heroes.git
     cd tour_of_heroes
     npm install
     npm start
-    
-    Open a browser window at localhost:3000
+```    
+Open a browser window at localhost:3000
     
 File/Component/Service Descriptions
 ===================================
